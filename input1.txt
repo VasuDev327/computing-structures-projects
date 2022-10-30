@@ -1,0 +1,39 @@
+6
+5
+
+0 Harry 01051994 London
+1 Ron 10071995 Liverpool
+2 Hermoine 01041995 Edinburgh
+3 Dumbledoor 12121966 London
+4 Hagrid 15051973 Oxford
+5 Malfoy 22101996 Manchester
+
+I 0 1 friend 4
+I 0 2 friend 4
+I 2 3 professor 3
+I 3 4 colleague 15
+I 0 5 villian 4
+I 1 8 friend 10
+N 1
+D
+E 0 1
+R 2 3 
+R 3 4
+E 3 4 
+D
+I 3 5 villian 60
+I 1 2 married 1
+I 0 4 professor 2
+I 2 4 professor 2
+E 1 2
+R 2 4 
+N 2
+D
+R 3 5 
+R 1 2 
+R 0 4 
+R 2 4 
+R 0 1
+R 0 2
+N 0
+D
