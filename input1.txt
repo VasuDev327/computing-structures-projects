@@ -1,0 +1,21 @@
+18
+6
+true
+fileInput1.csv
+
+F Ivan
+F Alex
+
+D
+
+A Age
+A Sex
+A Height(in)
+
+Q Sex
+
+X Age
+I Age
+
+R 5 10
+R 12 15
