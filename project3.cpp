@@ -436,20 +436,20 @@ double DataFrame::findMax(int colNumber)
 	}
 	else if (colNumber == 3)
 	{
-		maxValue = data[count].getAge();
+		maxValue = data[count].getHeight();
 		for (i = 1; i < nRows; i++) {
-			if (maxValue < data[i].getAge()) {
-				maxValue = data[i].getAge();
+			if (maxValue < data[i].getHeight()) {
+				maxValue = data[i].getHeight();
 			}
 		}
 		return maxValue;
 	}
 	else if (colNumber == 4)
 	{
-		maxValue = data[count].getAge();
+		maxValue = data[count].getWeight();
 		for (i = 1; i < nRows; i++) {
-			if (maxValue < data[i].getAge()) {
-				maxValue = data[i].getAge();
+			if (maxValue < data[i].getWeight()) {
+				maxValue = data[i].getWeight();
 			}
 		}
 		return maxValue;
